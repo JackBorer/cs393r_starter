@@ -100,9 +100,11 @@ void Navigation::ObservePointCloud(const vector<Vector2f>& cloud,
 }
 
 void Navigation::Run() {
-  // Create Helper functions here
-  // Milestone 1 will fill out part of this class.
-  // Milestone 3 will complete the rest of navigation.
+
 }
+
+// Create Helper functions here
+// Milestone 1 will fill out part of this class.
+// Milestone 3 will complete the rest of navigation.
 
 }  // namespace navigation
