@@ -73,6 +73,9 @@ Navigation::Navigation(const string& map_file, ros::NodeHandle* n) :
 }
 
 void Navigation::SetNavGoal(const Vector2f& loc, float angle) {
+  nav_goal_loc_ = loc;
+  nav_goal_angle_ = angle;
+  return;
 }
 
 void Navigation::UpdateLocation(const Eigen::Vector2f& loc, float angle) {
