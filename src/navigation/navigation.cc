@@ -88,6 +88,11 @@ void Navigation::UpdateOdometry(const Vector2f& loc,
                                 float angle,
                                 const Vector2f& vel,
                                 float ang_vel) {
+  odom_loc_ = loc;
+  odom_angle_ = angle;                             
+  robot_vel_ = vel;
+  robot_omega_ = ang_vel;
+  return;
 }
 
 void Navigation::ObservePointCloud(const vector<Vector2f>& cloud,
